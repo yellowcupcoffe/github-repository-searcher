@@ -149,6 +149,4 @@ Set `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD`, `DB_SSLMODE=r
 `GITHUB_TOKEN`) on the hosting platform; it provides `PORT`. Free hosting may sleep when idle, so the first
 request can be slow. Platform-specific steps will be added once the host is chosen.
 
-## Project explanation
 
-See **[PROJECT_EXPLANATION.md](PROJECT_EXPLANATION.md)** for a class-by-class walkthrough.
