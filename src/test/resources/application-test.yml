@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${TEST_DB_HOST:localhost}:${TEST_DB_PORT:5432}/${TEST_DB_NAME:github_searcher_test}?sslmode=${TEST_DB_SSLMODE:disable}
+    username: ${TEST_DB_USERNAME:github_app}
+    password: ${TEST_DB_PASSWORD:}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
